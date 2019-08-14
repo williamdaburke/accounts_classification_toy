@@ -1,7 +1,8 @@
 # accounts_classification_toy
 Trial of nlp classifiers on small toy dataset
 
-If jupyter notebook is not visible in github or if live version is desired, open in colab: https://colab.research.google.com/github/williamdaburke/accounts_classification_toy/blob/master/accounts_classification_toy__tfidf.ipynb
+If jupyter notebook is not visible in github, please view at https://nbviewer.jupyter.org/github/williamdaburke/accounts_classification_toy/blob/master/accounts_classification_toy__tfidf.ipynb?flush_cache=true 
+or if live version is desired, open in colab: https://colab.research.google.com/github/williamdaburke/accounts_classification_toy/blob/master/accounts_classification_toy__tfidf.ipynb
 
 
 Based on the small size of the file, number of labels, number of vocabulary, and average sentence size, I have created some
