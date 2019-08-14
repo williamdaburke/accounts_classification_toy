@@ -16,8 +16,7 @@ also gave a good result, but linearsvc continued to have the best results.
 
 The reason these simple classifiers are able to perform well is firstly that this is a rather well-separated dataset with
 well defined classes, simple language and small sentences.  But more importantly, using a linear classifier on tfidf vectors generally
-performs well because N-dimensional, sparse vectors tend to be linearly separable in N - 1 dimensions, the larger N is.  In this case,
-the vocab/tfidf vectors for the training set are only about 450 or so words, depending on the training/test split, which is relatively
-small for a set of documents, however still high dimensional. 
+performs well because N-dimensional, sparse vectors tend to be linearly separable in N - 1 dimensions, the larger N is, as shown
+by Covers and Radons theorems.  In this case, the vocab/tfidf vectors for the training set are only about 450 or so words, depending on the training/test split, which is relatively small for a set of documents, however still high dimensional. 
 
 These models are all quite small, with few parameters and could be easily deployed in most contexts, for example in a flask app.
